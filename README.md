@@ -69,21 +69,22 @@ Request login as user:
 - Create Blog 		[POST]	: localhost:8081/blog/admin/create\
   Request:
 ```json
-  {
-    "title":"Movie 1",
-    "rating":"1",
-    "desc":"desc 1"
-  } 
+{
+    "title":"Title Blog",
+    "body":"Body Blog",
+    "author":"Author Blog"
+ }
 ```
 
 - Update Blog		[PATCH]	: localhost:8081/blog/admin/update
     Request:
 ```json
-  {
-    "title":"1",
-    "rating":"0.1",
-    "desc":"edit 1"
-  }
+{
+    "id":"1",
+    "title":"Title 1",
+    "body":"Body 1",
+    "author":"Author 1"
+}
 ```
 - Delete Blog 		[DELETE]: localhost:8081/blog/admin/delete
     Request:
